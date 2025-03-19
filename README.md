@@ -1,11 +1,11 @@
-#🤖 WhatsApp Chatbot con Twilio y Flask
+# 🤖 WhatsApp Chatbot con Twilio y Flask
 
-##📌 Descripción
+## 📌 Descripción
 
 Este es un Chatbot de WhatsApp desarrollado con Flask y Twilio, diseñado para proporcionar asistencia automática a clientes. 
 Permite responder preguntas frecuentes y guiar a los usuarios a través de diferentes opciones de servicio al cliente, como soporte técnico, facturación y contacto con un agente.
 
-##🚀 Tecnologías Utilizadas
+## 🚀 Tecnologías Utilizadas
 
 Python 3.12.7
 
@@ -17,14 +17,14 @@ unicodedata (para normalización de texto)
 
 Ngrok para crear un túnel seguro y exponer la aplicación local a internet.
 
-##📂 Instalación y Configuración
+## 📂 Instalación y Configuración
 
-###1️⃣ Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 
 git clone https://github.com/AgustinZP/whatsapp_chatbot.git
 cd whatsapp_chatbot
 
-###2️⃣ Configurar Twilio
+### 2️⃣ Configurar Twilio
 
 Crea una cuenta en Twilio en Twilio Console.
 
@@ -32,13 +32,13 @@ Configura un número de WhatsApp en Twilio Sandbox.
 
 Guarda las credenciales (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN) en un archivo .env.
 
-###3️⃣ Ejecutar la aplicación
+### 3️⃣ Ejecutar la aplicación
 
 python chatbot.py
 
 La aplicación se ejecutará en http://127.0.0.1:5000/.
 
-##💬 Endpoints
+## 💬 Endpoints
 
 | Método | Ruta  | Descripción |
 |--------|------|-------------|
