@@ -21,10 +21,17 @@ Ngrok para crear un túnel seguro y exponer la aplicación local a internet.
 
 ### 1️⃣ Clonar el repositorio
 
-git clone https://github.com/AgustinZP/whatsapp_chatbot.git<br>
+git clone https://github.com/AgustinZP/whatsapp_chatbot.git
+
 cd whatsapp_chatbot
 
-### 2️⃣ Configurar Twilio
+### 2️⃣ Configurar Ngrok
+
+Crea una cuenta en Ngrok.
+
+Luego ejecuta en la consola el comando `ngrok http 5000`
+
+### 3️⃣ Configurar Twilio
 
 Crea una cuenta en Twilio en Twilio Console.
 
@@ -32,11 +39,9 @@ Configura un número de WhatsApp en Twilio Sandbox.
 
 Guarda las credenciales (TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN) en un archivo .env.
 
-### 3️⃣ Ejecutar la aplicación
+### 4️⃣ Ejecutar la aplicación
 
 python chatbot.py
-
-La aplicación se ejecutará en http://127.0.0.1:5000/.
 
 ## 💬 Endpoints
 
