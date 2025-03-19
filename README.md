@@ -21,7 +21,7 @@ Ngrok para crear un túnel seguro y exponer la aplicación local a internet.
 
 ### 1️⃣ Clonar el repositorio
 
-git clone https://github.com/AgustinZP/whatsapp_chatbot.git
+git clone https://github.com/AgustinZP/whatsapp_chatbot.git<br>
 cd whatsapp_chatbot
 
 ### 2️⃣ Configurar Twilio
